@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project with Logo and Icons</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        header img {
+            height: 50px;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .button-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            justify-items: center;
+            align-items: center;
+        }
+        .button {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            transition: background-color 0.3s;
+            justify-content: center;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        .button img {
+            height: 24px;
+            width: 24px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="photo_2025-01-26_11-39-33.jpg" alt="Project Logo">
+    </header>
+
+    <div class="container">
+        <h1>Welcome to the Project</h1>
+        <p>Select an option below:</p>
+
+        <div class="button-container">
+            <a href="#" class="button">
+                <img src="ايقوناتا.webp" alt="Login Icon">
+                Login
+            </a>
+            <a href="#" class="button">
+                <img src="ايقوناتا.webp" alt="Wallet Icon">
+                Wallet
+            </a>
+            <a href="#" class="button">
+                <img src="ايقوناتا.webp" alt="Coupons Icon">
+                Coupons
+            </a>
+            <a href="#" class="button">
+                <img src="ايقوناتا.webp" alt="Chat Icon">
+                Chat
+            </a>
+            <a href="#" class="button">
+                <img src="ايقوناتا.webp" alt="Settings Icon">
+                Settings
+            </a>
+        </div>
+    </div>
+</body>
+</html>
